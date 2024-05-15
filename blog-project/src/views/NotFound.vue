@@ -1,0 +1,5 @@
+<template>
+  <div class="not-found content">
+    OOPS, page not found.
+  </div>
+  </template>

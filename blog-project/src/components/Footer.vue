@@ -1,0 +1,6 @@
+<template>
+
+<footer>
+    Copyright &copy; Blog Ninja 2024
+  </footer>
+</template>
