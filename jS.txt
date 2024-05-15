@@ -1,0 +1,11 @@
+1) async function always returns a promise.
+2) async & await combo is used to handle promises
+3) await can only be used inside async function.
+4) anonymous function, it has no name.
+
+
+
+things to look into:
+
+ higher order functions
+function closures

@@ -1,0 +1,20 @@
+{
+    "name": "NFT PUCK #1",
+    "image": "https://bronze-defeated-tuna-485.mypinata.cloud/ipfs/QmVmbdRn2tRYENhxnaLn6endy8c9MiAFy6GxX2tjL5Q4No",
+    "description": "A unique digital collectible representing the hero Puck from Dota 2.",
+    "attributes": [
+        {
+            "trait_type": "Game",
+            "value": "Dota 2"
+          },
+          {
+            "trait_type": "Role",
+            "value": "Initiator"
+          },
+          {
+            "trait_type": "Abilities",
+            "value": ["Illusory Orb", "Waning Rift", "Phase Shift", "Dream Coil"]
+          }
+
+    ]
+}

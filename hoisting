@@ -1,0 +1,5 @@
+//all the declarations are moved to the top. so regardless of declaring the variables anywhere, it will work.
+
+//Hoisting is JavaScript's default behavior of moving all 
+//declarations to the top of the current scope (to the top of the current script or the current function).
+//JavaScript only hoists declarations, not initializations.
