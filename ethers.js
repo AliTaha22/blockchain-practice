@@ -842,16 +842,21 @@ const buyNFT = async () => {
 
 }
 
-
-
-const main = async () => {
-
-    //sendTx();
+//anonymous function, self-invoking function.
+(async () => {
+        //sendTx();
     // getBalance(signer.getAddress());
     //signAndVerifyMessage();
     connectContract();
     // createContractInstance();
     // buyNFT();
 
-}
-main();
+})();
+
+
+// const main = async () => {
+
+
+
+// }
+// main();
