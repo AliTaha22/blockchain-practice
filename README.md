@@ -35,4 +35,3 @@ This repository encapsulates hands-on experience and experimentation with blockc
 
 Feel free to explore the branches and projects within this repository. If you have any questions, suggestions, or feedback, don't hesitate to reach out!
 
-Happy coding! 🚀
