@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 
 
-let private_key = "8b764ca92f524fd732cb1ae294d4b77601168ee66bd4b0e8196a8ad145039658";
+let private_key = "YOUR_PRIVATE_KEY";
 let url = "https://eth-sepolia.g.alchemy.com/v2/34YV2G8n7RR0O_rECRkdTqkWe1GkUZpi";
 
 //provider connects us to an ethereum node and enables us to interact with the blockchain & fetch its status & data.
