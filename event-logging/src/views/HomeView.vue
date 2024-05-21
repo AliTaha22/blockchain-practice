@@ -887,7 +887,7 @@ onMounted(async () => {
 	const polygonContract = new ethers.Contract(polygonContractAddress, polygonContractABI, polygonProvider);
 	const polygonERC20Contract = new ethers.Contract(polygonERC20ContractAddress, polygonERC20ContractABI, polygonProvider);
 
-	const signer = new ethers.Wallet("8b764ca92f524fd732cb1ae294d4b77601168ee66bd4b0e8196a8ad145039658", polygonProvider);
+	const signer = new ethers.Wallet("YOUR_PRIVATE_KEY", polygonProvider);
 	const contractSigner = polygonContract.connect(signer);
 	const erc20ContractSigner = polygonERC20Contract.connect(signer);
 
