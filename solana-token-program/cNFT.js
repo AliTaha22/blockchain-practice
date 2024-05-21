@@ -7,6 +7,7 @@ import {
 } from '@metaplex-foundation/mpl-bubblegum'
 import { Keypair, PublicKey } from '@solana/web3.js'
 
+
 const privateKey = [7, 148, 29, 164, 175, 231, 168, 110, 194, 49, 35, 238, 18, 17, 174, 137, 172, 59, 228, 73, 100, 138, 25, 108, 120, 155, 185, 68, 90, 19, 89, 207, 205, 200, 199, 233, 184, 208, 224, 157, 31, 118, 216, 162, 118, 148, 15, 74, 154, 34, 89, 54, 127, 14, 143, 54, 245, 184, 89, 188, 206, 191, 98, 57];
 
 
@@ -102,18 +103,16 @@ const fetch_cNFT = async (assetId) => {
 
 }
 
-const main = async () => {
+(async () => {
 
-    // create_Tree();
+        // create_Tree();
     // fetch_MerkleTree();
     // fetch_TreeConfig();
     // mint_cNFT();
     const assetId = await getAssetID();
     fetch_cNFT(assetId[0]);
 
-}
-main();
-
+})();
 
 
 // const merkleTreeSigner = [
