@@ -8,7 +8,7 @@ module.exports = {
     fuji: {
       url: 'https://api.avax-test.network/ext/bc/C/rpc',
       chainId: 43113,
-      accounts: ["889ce6bdf3f79ae99e7d3a39cc7e9f6aea66aa1d2539f97293aaa711fdcfef18"]
+      accounts: ["YOUR_PRIVATE_KEY"]
     },
   },
   sourcify: {
